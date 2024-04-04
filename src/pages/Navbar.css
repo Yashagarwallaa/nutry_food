@@ -71,7 +71,12 @@
  /* ---------- latest --------- */
  .best-sellers {
     position: relative;
-    font-weight: 600;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
   }
   .stand-up-pouch-bag-mockup-2 {
     position: absolute;

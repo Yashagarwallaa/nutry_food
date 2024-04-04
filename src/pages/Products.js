@@ -1,11 +1,53 @@
 import React from 'react'
-import Navbar from './Navbar';
-import Footer from './Footer';
+import Navbar from '../pages/Navbar';
+import Footer from '../pages/Footer';
+import {Link} from "react-router-dom"
 import './product_style.css'
-function Spotlight() {
+function Products() {
   return (
     <div >
-        <Navbar/>
+        <div className="macbook-air-7">
+        <img className="macbook-air-7-child" alt="" src="/frame-251.svg" />
+        <div className="access-context-manager-svgrepo-parent">
+          <img
+            className="access-context-manager-svgrepo-icon"
+            alt=""
+            src="/accesscontextmanager-svgrepocom.svg"
+          />
+          <img className="vector-icon" alt="" src="/vector.svg" />
+          <div className="nutryfood1">NUTRYFOOD</div>
+          <b className="crowned-with-innovations2">CROWNED WITH INNOVATIONS</b>
+        </div>
+        <div className="component-58-parent">
+          <img className="component-38-icon" alt="" src="/component-58.svg" />
+          <div className="domestic-international">{`Domestic & International Markets- Accessible worldwide and everywhere`}</div>
+        </div>
+      </div>
+      <div className="macbook-air-6">
+        <div className="frame-parent1">
+          <div className="home-group">
+            <div className="best-sellers"><Link to="/">Home</Link></div>
+            {/* <img className="frame-child3" alt="" src="/vector-18.svg" /> */}
+          </div>
+          <div className="home-group">
+            <div className="best-sellers"><Link to="/aboutus">About Us</Link></div>
+            <img className="frame-child4" alt="" src="/vector-19.svg" />
+          </div>
+          <div className="home-group">
+            <div className="best-sellers"><Link to="/products">Products</Link></div>
+            <img className="frame-child4" alt="" src="/vector-20.svg" />
+          </div>
+          <div className="home-group">
+            <div className="best-sellers"><Link to="/contactus">Contact Us</Link></div>
+            <img className="frame-child4" alt="" src="/vector-21.svg" />
+          </div>
+        </div>
+        <div className="phone-2-1-parent">
+         <Link> <img className="mdiwhatsapp-icon" alt="" src="/phone-2-1.svg" /></Link>
+         <Link><img className="mdiwhatsapp-icon" alt="" src="/mail-1-1.svg" /></Link>
+         <Link><img className="mdiwhatsapp-icon" alt="" src="/mdiwhatsapp.svg" /></Link>
+        </div>
+      </div> 
         <div className='spotlight-header'>
             <div className='spotlight-title'>Spotlight</div></div>
             <div className='spotlight-images'>
@@ -242,9 +284,34 @@ function Spotlight() {
                     
                 </div>
             </div>
-            <Footer/>
+            <div className='home'>
+            <div className="macbook-air-5">
+        <div className="nutryfood-parent">
+          <div className="nutryfood">NUTRYFOOD</div>
+          <div className="crowned-with-innovations1">
+            CROWNED WITH INNOVATIONS
+          </div>
+        </div>
+        <div className="home-parent">
+          <div className="best-sellers"><Link to='/'>Home</Link></div>
+          <div className="best-sellers"><Link to='/aboutus'>About Us</Link></div>
+          <div className="best-sellers"><Link to='/products'>Products</Link></div>
+          <div className="best-sellers"><Link to='/contactus'>Contact Us</Link></div>
+        </div>
+        <div className="component-38-parent">
+          <img className="component-38-icon" alt="" src="/component-38.svg" />
+          <img className="component-38-icon" alt="" src="/component-39.svg" />
+          <img className="component-38-icon" alt="" src="/component-40.svg" />
+          <img className="component-38-icon" alt="" src="/component-41.svg" />
+          <img className="component-38-icon" alt="" src="/component-42.svg" />
+        </div>
+        <div className="nutryfood-all-rights">
+          © 2024, NutryFood. All rights reserved.
+        </div>
+      </div>
+      </div>
     </div>
   )
 }
 
-export default Spotlight
+export default Products
