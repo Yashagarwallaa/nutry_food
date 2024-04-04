@@ -619,3 +619,459 @@
 // };
 
 // export default ProductInfor;
+
+import React from 'react'
+import './ProductInfor.css';
+import {Link} from "react-router-dom"
+
+function ProductInfo() {
+  return (
+    <div>
+        <div className='home'>
+         <div className="macbook-air-7">
+        <img className="macbook-air-7-child" alt="" src="/frame-251.svg" />
+        <div className="access-context-manager-svgrepo-parent">
+          <img
+            className="access-context-manager-svgrepo-icon"
+            alt=""
+            src="/accesscontextmanager-svgrepocom.svg"
+          />
+          <img className="vector-icon" alt="" src="/vector.svg" />
+          <div className="nutryfood1">NUTRYFOOD</div>
+          <b className="crowned-with-innovations2">CROWNED WITH INNOVATIONS</b>
+        </div>
+        <div className="component-58-parent">
+          <img className="component-38-icon" alt="" src="/component-58.svg" />
+          <div className="domestic-international">{`Domestic & International Markets- Accessible worldwide and everywhere`}</div>
+        </div>
+      </div>
+      <div className="macbook-air-6">
+        <div className="frame-parent1">
+          <div className="home-group">
+            <div className="best-sellers"><Link to="/">Home</Link></div>
+            {/* <img className="frame-child3" alt="" src="/vector-18.svg" /> */}
+          </div>
+          <div className="home-group">
+            <div className="best-sellers"><Link to="/aboutus">About Us</Link></div>
+            <img className="frame-child4" alt="" src="/vector-19.svg" />
+          </div>
+          <div className="home-group">
+            <div className="best-sellers"><Link to="/products">Products</Link></div>
+            <img className="frame-child4" alt="" src="/vector-20.svg" />
+          </div>
+          <div className="home-group">
+            <div className="best-sellers"><Link to="/contactus">Contact Us</Link></div>
+            <img className="frame-child4" alt="" src="/vector-21.svg" />
+          </div>
+        </div>
+        <div className="phone-2-1-parent">
+         <Link> <img className="mdiwhatsapp-icon" alt="" src="/phone-2-1.svg" /></Link>
+         <Link><img className="mdiwhatsapp-icon" alt="" src="/mail-1-1.svg" /></Link>
+         <Link><img className="mdiwhatsapp-icon" alt="" src="/mdiwhatsapp.svg" /></Link>
+        </div>
+      </div>
+        <div className='filter-productdes'>
+        <div className='filter-productdes-1'>Products</div>
+        <div className='filter-productdes-arrow'>{`>`}</div>
+        <div className='filter-productdes-1'>Breakfast</div>
+        <div className='filter-productdes-arrow'>{`>`}</div>
+        <div className='filter-productdes-1'>Mix Powder</div>
+        </div>
+        <div className='product-des-detail'>
+            <div className='product-side-images'>
+        <div className='product-des-side-image'>
+            <img src='./side-image.png'></img>
+        </div>
+        <div className='product-des-side-image'>
+            <img src='./side-image.png'></img>
+        </div>
+        <div className='product-des-side-image'>
+            <img src='./side-image.png'></img>
+        </div>
+        </div>
+        <div className='product-des-main-image'>
+            <img src='./Frame 44.png'></img>
+        </div>
+        <div className='main-product-des'>
+            <div className='main-product-title'>
+                <div className='product-des-name'>Dosa Powder</div>
+                <div className='product-des-det'>
+                    <div className='star-image'>
+                        <img src='./star.png'></img>
+                    </div>
+                    <div className='total-review'>
+                        <div className='review-star'>
+                            {`(5)`}
+                        </div>
+                        <div className='review-total'>
+                        8769 Reviews
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <button className='btn-review' >
+                           Buy Now
+                        </button>
+                <div className='dom-review'>
+               <span style={{color:' #004AAD'}}>●</span> Domestic & International Markets- Accessible worldwide and everywhere
+                </div> 
+                <div className='why-nutry'>
+                    <div className='why-nutry-food'>Why NutryFoods?</div>
+                    <div className='icon-why'>
+                    <div className='why-nutry-icon'>
+                        <div className='nutry-icon'>
+                        <img src='./why-icon-1.png'>
+                            </img>
+                        </div>
+                        <div className='icon-des'>
+                        Best Quality
+                        </div>
+                    </div>
+                    <div className='why-nutry-icon'>
+                        <div className='nutry-icon'>
+                        <img src='./why-icon-1.png'>
+                            </img>
+                        </div>
+                        <div className='icon-des'>
+                        Best Quality
+                        </div>
+                    </div>
+                    <div className='why-nutry-icon'>
+                        <div className='nutry-icon'>
+                        <img src='./why-icon-1.png'>
+                            </img>
+                        </div>
+                        <div className='icon-des'>
+                        Best Quality
+                        </div>
+                    </div>
+                    <div className='why-nutry-icon'>
+                        <div className='nutry-icon'>
+                        <img src='./why-icon-1.png'>
+                            </img>
+                        </div>
+                        <div className='icon-des'>
+                        Best Quality
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div className='prod-details'>
+                        <div className='Description'>
+                            <div className='det-title'>
+                                Description
+                            </div>
+                            <div className='det-slogan'>
+                            ● Provides a balanced combination of carbohydrates (Rice) and protein (Lentils) and helps in preparing a quick and healthy breakfast
+                            </div>
+                        </div>
+                        <div className='Description'>
+                            <div className='det-title'>
+                            INGREDIENTS
+                            </div>
+                            <div className='det-slogan'>
+                            ●    Rice Flour (70%), Urad Dal Flour, Chana Dal Flour, Iodized salt, Acidity regulator (INS 296), and fenugreek seeds
+                            </div>
+                        </div>
+                        <div className='Description'>
+                            <div className='det-title'>
+                            METHODS OF PREPARATION
+                            </div>
+                            <div className='det-slogan'>
+                            ● Pour the contents from the pouch into the bowl and mix water to meet the consistency of the regular batter.
+                            </div>
+                        </div>
+                        <div className='Description'>
+                            <div className='det-title'>
+                            COOKING TIP
+                            </div>
+                            <div className='det-slogan'>
+                            ● 10 mins continuous stirring is mandatory to get a good consistency of the batter and crisp dosa.
+                            </div>
+                        </div>
+                        <div className='Description'>
+                            <div className='det-title'>
+                            NUTRITION INFORMATION
+                            </div>
+                            <div className='det-table'>
+                            <table>
+                                <tr>
+                                <th>Nutrients
+                                </th>
+                                <th>Unit</th>
+                                <th>Values</th>
+                                </tr>
+                                <tr>
+                                <td>Energy</td>
+                                <td>kcal</td>
+                                <td>320320</td>
+                                </tr>
+                                <tr>
+                                <td>Energy</td>
+                                <td>kcal</td>
+                                <td>320320</td>
+                                </tr>
+                                <tr>
+                                <td>Energy</td>
+                                <td>kcal</td>
+                                <td>320320</td>
+                                </tr>
+                                <tr>
+                                <td>Energy</td>
+                                <td>kcal</td>
+                                <td>320320</td>
+                                </tr>
+                                <tr>
+                                <td>Energy</td>
+                                <td>kcal</td>
+                                <td>320320</td>
+                                </tr>
+                                <tr>
+                                <td>Energy</td>
+                                <td>kcal</td>
+                                <td>320320</td>
+                                </tr>
+                                <tr>
+                                <td>Energy</td>
+                                <td>kcal</td>
+                                <td>320320</td>
+                                </tr>
+                                <tr>
+                                <td>Energy</td>
+                                <td>kcal</td>
+                                <td>320320</td>
+                                </tr>
+                                <tr>
+                                <td>Energy</td>
+                                <td>kcal</td>
+                                <td>320320</td>
+                                </tr>
+                                <tr>
+                                <td>Energy</td>
+                                <td>kcal</td>
+                                <td>320320</td>
+                                </tr>
+                                <tr>
+                                <td>Energy</td>
+                                <td>kcal</td>
+                                <td>320320</td>
+                                </tr>
+
+                            </table>
+                            </div>
+                        </div>
+                    </div>
+            <div className='reviews-ratings'>
+            <div className='main-product-title'>
+                <div className='product-des-name'>Ratings and Reviews </div>
+                <div className='product-des-det'>
+                    <div className='star-image'>
+                        <img src='./star.png'></img>
+                    </div>
+                    <div className='total-review'>
+                        <div className='review-star'>
+                            4.5
+                        </div>
+                        <div className='review-total'>
+                       <span style={{color:'#000', marginRight:'0.5rem'}}> Overall Course rating</span>
+                       (8769 Reviews)
+                        </div>
+                    </div>
+                </div>
+                </div>
+            <div className='comments'>
+                <div className='comments-icon'>
+                    <img src='./comments-icon.png'></img>
+                </div>
+                <div className='comments-des'>
+                    <div className='commentor'>
+                    Nani Chinchula
+                    </div>
+                    <div className='total-review'>
+                    <div className='star-image'>
+                        <img style={{width:'1.21rem'}} src='./star.png'></img>
+                    </div>
+                        <div className='review-star'>
+                            4.5
+                        </div>
+                        <div className='review-total'>
+                       <span style={{marginLeft:'0.5rem', fontSize:'0.8rem'}}> a Week ago</span>
+                        </div>
+                    </div>
+                    <div className='rev-des'>
+                    <div className='review-des'>
+                    Entire experience from check in to check out, welcome from hotel staff guideiing to room. Polite staff, easily accessible on Baga Calangute road. 
+                    </div>
+                    <div className='helpful-option'>
+                        <div className='helpful'>
+                            <div className='helpful-icon'>
+                                <img src='./helpful-icon.svg'></img>
+                            </div>
+                            <div className='helpful-des'>
+                                Helpful
+                            </div>
+                            <div className='helpful-icon'>
+                                <img src='./not-helpful-icon.svg'></img>
+                            </div>
+                            <div className='helpful-des'>
+                               Not Helpful
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div className='comments'>
+                <div className='comments-icon'>
+                    <img src='./comments-icon.png'></img>
+                </div>
+                <div className='comments-des'>
+                    <div className='commentor'>
+                    Nani Chinchula
+                    </div>
+                    <div className='total-review'>
+                    <div className='star-image'>
+                        <img style={{width:'1.21rem'}} src='./star.png'></img>
+                    </div>
+                        <div className='review-star'>
+                            4.5
+                        </div>
+                        <div className='review-total'>
+                       <span style={{marginLeft:'0.5rem', fontSize:'0.8rem'}}> a Week ago</span>
+                        </div>
+                    </div>
+                    <div className='rev-des'>
+                    <div className='review-des'>
+                    Entire experience from check in to check out, welcome from hotel staff guideiing to room. Polite staff, easily accessible on Baga Calangute road. 
+                    </div>
+                    <div className='helpful-option'>
+                        <div className='helpful'>
+                            <div className='helpful-icon'>
+                                <img src='./helpful-icon.svg'></img>
+                            </div>
+                            <div className='helpful-des'>
+                                Helpful
+                            </div>
+                            <div className='helpful-icon'>
+                                <img src='./not-helpful-icon.svg'></img>
+                            </div>
+                            <div className='helpful-des'>
+                               Not Helpful
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div className='comments'>
+                <div className='comments-icon'>
+                    <img src='./comments-icon.png'></img>
+                </div>
+                <div className='comments-des'>
+                    <div className='commentor'>
+                    Nani Chinchula
+                    </div>
+                    <div className='total-review'>
+                    <div className='star-image'>
+                        <img style={{width:'1.21rem'}} src='./star.png'></img>
+                    </div>
+                        <div className='review-star'>
+                            4.5
+                        </div>
+                        <div className='review-total'>
+                       <span style={{marginLeft:'0.5rem', fontSize:'0.8rem'}}> a Week ago</span>
+                        </div>
+                    </div>
+                    <div className='rev-des'>
+                    <div className='review-des'>
+                    Entire experience from check in to check out, welcome from hotel staff guideiing to room. Polite staff, easily accessible on Baga Calangute road. 
+                    </div>
+                    <div className='helpful-option'>
+                        <div className='helpful'>
+                            <div className='helpful-icon'>
+                                <img src='./helpful-icon.svg'></img>
+                            </div>
+                            <div className='helpful-des'>
+                                Helpful
+                            </div>
+                            <div className='helpful-icon'>
+                                <img src='./not-helpful-icon.svg'></img>
+                            </div>
+                            <div className='helpful-des'>
+                               Not Helpful
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div className='more-products-option'>
+                <div className='more-products-title'>People also order these</div>
+            </div>
+            <div className='prod-display-1'>
+                    <div className='prod-card'>
+                        <div className='prod-card-image'>
+                            <img src='./Frame 260 (2).png'></img>
+                        </div>
+                        <div className='prod-card-title'>Dosa Powder</div>
+                        <button className='btn-prod-card buynow-btn'>
+                           Buy Now
+                        </button>
+                    </div>
+                    <div className='prod-card'>
+                        <div className='prod-card-image'>
+                            <img src='./Frame 260 (2).png'></img>
+                        </div>
+                        <div className='prod-card-title'>Dosa Powder</div>
+                        <button className='btn-prod-card buynow-btn'>
+                           Buy Now
+                        </button>
+                    </div>
+                    <div className='prod-card'>
+                        <div className='prod-card-image'>
+                            <img src='./Frame 260 (2).png'></img>
+                        </div>
+                        <div className='prod-card-title'>Dosa Powder</div>
+                        <button className='btn-prod-card buynow-btn'>
+                           Buy Now
+                        </button>
+                    </div>
+                    
+                </div>
+
+            </div>
+            </div>
+            <div className='home'>
+            <div className="macbook-air-5">
+        <div className="nutryfood-parent">
+          <div className="nutryfood">NUTRYFOOD</div>
+          <div className="crowned-with-innovations1">
+            CROWNED WITH INNOVATIONS
+          </div>
+        </div>
+        <div className="home-parent">
+          <div className="best-sellers"><Link to='/'>Home</Link></div>
+          <div className="best-sellers"><Link to='/aboutus'>About Us</Link></div>
+          <div className="best-sellers"><Link to='/products'>Products</Link></div>
+          <div className="best-sellers"><Link to='/contactus'>Contact Us</Link></div>
+        </div>
+        <div className="component-38-parent">
+          <img className="component-38-icon" alt="" src="/component-38.svg" />
+          <img className="component-38-icon" alt="" src="/component-39.svg" />
+          <img className="component-38-icon" alt="" src="/component-40.svg" />
+          <img className="component-38-icon" alt="" src="/component-41.svg" />
+          <img className="component-38-icon" alt="" src="/component-42.svg" />
+        </div>
+        <div className="nutryfood-all-rights">
+          © 2024, NutryFood. All rights reserved.
+        </div>
+      </div>
+      </div>
+        
+    </div>
+  )
+}
+
+export default ProductInfo

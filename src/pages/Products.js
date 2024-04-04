@@ -2,8 +2,10 @@ import React from 'react'
 import Navbar from '../pages/Navbar';
 import Footer from '../pages/Footer';
 import {Link} from "react-router-dom"
+import { useNavigate } from "react-router-dom";
 import './product_style.css'
 function Products() {
+
   return (
     <div >
         <div className='home'>
@@ -134,8 +136,8 @@ function Products() {
                             <img src='./Frame 260 (2).png'></img>
                         </div>
                         <div className='prod-card-title'>Dosa Powder</div>
-                        <button className='btn-prod-card buynow-btn'>
-                           Buy Now
+                        <button  className='btn-prod-card buynow-btn'>
+                         <Link to = '/productinfor'> Buy Now</Link> 
                         </button>
                     </div>
                     <div className='prod-card'>
