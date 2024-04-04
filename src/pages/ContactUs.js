@@ -47,6 +47,53 @@ const ContactUs = () => {
          <Link><img className="mdiwhatsapp-icon" alt="" src="/mdiwhatsapp.svg" /></Link>
         </div>
       </div>
+      <div className='contact-page'>
+            <div className='contactus-image'>
+                <img src='./contactus-page-image.png'></img>
+                <div className='image-des'>
+                “Together, Let's Shape the Future of Food - Contact Us with Your Ideas and Questions”
+                </div>
+            </div>
+            <div className='contactus-form'>
+                <div className='contact-us-title'>Contact Us</div>
+                <form className='contact-form'>
+                    <input className='input-1' type='text' name= 'Name'placeholder='Enter your name'>
+                    </input>
+                    <input className='input-1' type='email' name='email' placeholder='Enter your email'>
+                    </input>
+                    <input style={{height:'250px'}} className='input-1' type='text' name='description'
+                     placeholder='Description'>
+                    </input>
+                    <button className='form-btn' type='submit'>Send</button>
+                </form>
+            </div>
+        </div>
+        </div>
+        <div className="home">
+        <div className="macbook-air-5">
+        <div className="nutryfood-parent">
+          <div className="nutryfood">NUTRYFOOD</div>
+          <div className="crowned-with-innovations1">
+            CROWNED WITH INNOVATIONS
+          </div>
+        </div>
+        <div className="home-parent">
+          <div className="best-sellers"><Link to='/'>Home</Link></div>
+          <div className="best-sellers"><Link to='/aboutus'>About Us</Link></div>
+          <div className="best-sellers"><Link to='/products'>Products</Link></div>
+          <div className="best-sellers"><Link to='/contactus'>Contact Us</Link></div>
+        </div>
+        <div className="component-38-parent">
+          <img className="component-38-icon" alt="" src="/component-38.svg" />
+          <img className="component-38-icon" alt="" src="/component-39.svg" />
+          <img className="component-38-icon" alt="" src="/component-40.svg" />
+          <img className="component-38-icon" alt="" src="/component-41.svg" />
+          <img className="component-38-icon" alt="" src="/component-42.svg" />
+        </div>
+        <div className="nutryfood-all-rights">
+          © 2024, NutryFood. All rights reserved.
+        </div>
+        </div>
       </div>
       </div> 
       );

@@ -6,6 +6,7 @@ import './product_style.css'
 function Products() {
   return (
     <div >
+        <div className='home'>
         <div className="macbook-air-7">
         <img className="macbook-air-7-child" alt="" src="/frame-251.svg" />
         <div className="access-context-manager-svgrepo-parent">
@@ -284,7 +285,6 @@ function Products() {
                     
                 </div>
             </div>
-            <div className='home'>
             <div className="macbook-air-5">
         <div className="nutryfood-parent">
           <div className="nutryfood">NUTRYFOOD</div>
