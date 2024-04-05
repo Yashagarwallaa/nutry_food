@@ -1,13 +1,12 @@
 import React from 'react'
 import './aboutus_styles.css';
 import {Link} from "react-router-dom"
-
+import { ExternalLink } from 'react-external-link';
 
 function Aboutus() {
   return (
    <>
    <div>
-   <div className="home">
  <div className="macbook-air-7">
         <img className="macbook-air-7-child" alt="" src="/frame-251.svg" />
         <div className="access-context-manager-svgrepo-parent">
@@ -46,8 +45,8 @@ function Aboutus() {
         </div>
         <div className="phone-2-1-parent">
          <Link> <img className="mdiwhatsapp-icon" alt="" src="/phone-2-1.svg" /></Link>
-         <Link><img className="mdiwhatsapp-icon" alt="" src="/mail-1-1.svg" /></Link>
-         <Link><img className="mdiwhatsapp-icon" alt="" src="/mdiwhatsapp.svg" /></Link>
+         <ExternalLink href='https://contact@Nutryfood.com'><img className="mdiwhatsapp-icon" alt="" src="/mail-1-1.svg" /></ExternalLink>
+         <ExternalLink href='https://web.whatsapp.com/'><img className="mdiwhatsapp-icon" alt="" src="/mdiwhatsapp.svg" /></ExternalLink>
         </div>
       </div> 
       <div>
@@ -287,9 +286,8 @@ We want everyone to enjoy the flavors of Indian food, no matter where they are. 
         </div>
       </div>
    </div>
-   </div>
 </div>
-<div className="home">
+<div className='home' style={{height:'1800px'}}>
         <div className="macbook-air-5">
         <div className="nutryfood-parent">
           <div className="nutryfood">NUTRYFOOD</div>
@@ -315,7 +313,6 @@ We want everyone to enjoy the flavors of Indian food, no matter where they are. 
         </div>
       </div>
       </div>
-
  </div>
     </>
   )
