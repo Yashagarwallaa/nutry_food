@@ -22,7 +22,7 @@ const Home = () => {
               alt=""
               src="/standup-pouch-bag-mockup-1-1@2x.png"
             />
-            <div className="ready-to-mix">Ready to Mix Dosa Powder</div>
+            <div className="ready-to-mix">Ready to Mix Idly Powder</div>
           </div>
           <div className="stand-up-pouch-bag-mockup-2-parent">
             <img
@@ -30,7 +30,7 @@ const Home = () => {
               alt=""
               src="/standup-pouch-bag-mockup-3-2@2x.png"
             />
-            <div className="ready-to-mix">Ready to Mix Dosa Powder</div>
+            <div className="ready-to-mix">Ready to Mix Millet Idly Powder</div>
           </div>
           <div className="stand-up-pouch-bag-mockup-2-parent">
             <img
@@ -38,7 +38,7 @@ const Home = () => {
               alt=""
               src="/standup-pouch-bag-mockup-4-2@2x.png"
             />
-            <div className="ready-to-mix">Ready to Mix Dosa Powder</div>
+            <div className="ready-to-mix">Ready to Mix Millet Dosa Powder</div>
           </div>
         </div>
       </div>

@@ -201,11 +201,20 @@
 .image-88-icon {
   left: 1195px;
 }
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-royalblue-100);
+}
 .component-45 {
-  width: 1294px;
+  width: 194px;
   position: relative;
   height: 80px;
-  overflow: hidden;
+  /* overflow: hidden; */
   flex-shrink: 0;
 }
 .certifications-parent {

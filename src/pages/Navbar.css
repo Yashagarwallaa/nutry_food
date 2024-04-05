@@ -1,3 +1,12 @@
+
+-webkit-scrollbar-track {
+  background: white;
+}
+ 
+-webkit-scrollbar-thumb {
+  background: var(--color-royalblue-100);
+}
+
 .macbook-air-7 {
     position: absolute;
     top: 0;
@@ -281,8 +290,11 @@ line-height: normal;
     width: 1294px;
     position: relative;
     height: 80px;
-    overflow: hidden;
+    /* overflow: hidden; */
+    overflow-x: scroll;
     flex-shrink: 0;
+    background-repeat: no-repeat;
+    padding-bottom: 3rem;
   }
   .certifications-parent {
     position: absolute;
