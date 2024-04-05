@@ -84,11 +84,17 @@ const ContactUs = () => {
           <div className="best-sellers"><Link to='/contactus'>Contact Us</Link></div>
         </div>
         <div className="component-38-parent">
-          <img className="component-38-icon" alt="" src="/component-38.svg" />
-          <img className="component-38-icon" alt="" src="/component-39.svg" />
-          <img className="component-38-icon" alt="" src="/component-40.svg" />
-          <img className="component-38-icon" alt="" src="/component-41.svg" />
+        <ExternalLink href='https://www.linkedin.com/company/nutryfood'>
+      <img className="component-38-icon" alt="" src="/component-38.svg" /></ExternalLink>   
+      <ExternalLink href='https://twitter.com/Nutryfood_'>
+        <img className="component-38-icon" alt="" src="/component-39.svg" /></ExternalLink>    
+        <ExternalLink href="https://www.instagram.com/nutryfood_/"><img className="component-38-icon" alt="" src="/component-40.svg" />
+        </ExternalLink>  
+         <ExternalLink href="https://www.facebook.com/NutryFoodIndustries/"> <img className="component-38-icon" alt="" src="/component-41.svg" />
+         </ExternalLink>
+         <ExternalLink href='#'>
           <img className="component-38-icon" alt="" src="/component-42.svg" />
+          </ExternalLink>
         </div>
         <div className="nutryfood-all-rights">
           © 2024, NutryFood. All rights reserved.
