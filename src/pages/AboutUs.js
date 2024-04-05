@@ -310,7 +310,7 @@ We want everyone to enjoy the flavors of Indian food, no matter where they are. 
         </ExternalLink>  
          <ExternalLink href="https://www.facebook.com/NutryFoodIndustries/"> <img className="component-38-icon" alt="" src="/component-41.svg" />
          </ExternalLink>
-         <ExternalLink href='#'>
+         <ExternalLink href=''>
           <img className="component-38-icon" alt="" src="/component-42.svg" />
           </ExternalLink>
         </div>

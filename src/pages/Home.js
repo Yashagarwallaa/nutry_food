@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { ExternalLink } from 'react-external-link';
 import "./Home.css";
 
 const Home = () => {
@@ -190,7 +191,7 @@ const Home = () => {
         </ExternalLink>  
          <ExternalLink href="https://www.facebook.com/NutryFoodIndustries/"> <img className="component-38-icon" alt="" src="/component-41.svg" />
          </ExternalLink>
-         <ExternalLink href='#'>
+         <ExternalLink href=''>
           <img className="component-38-icon" alt="" src="/component-42.svg" />
           </ExternalLink>
         </div>

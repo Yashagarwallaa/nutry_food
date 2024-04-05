@@ -623,6 +623,7 @@
 import React from 'react'
 import './ProductInfor.css';
 import {Link} from "react-router-dom"
+import { ExternalLink } from 'react-external-link';
 
 function ProductInfo() {
   return (

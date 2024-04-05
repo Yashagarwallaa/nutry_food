@@ -1,5 +1,6 @@
 import "./ContactUs.css";
 import {Link} from "react-router-dom"
+import { ExternalLink } from 'react-external-link';
 
 const ContactUs = () => {
   return (

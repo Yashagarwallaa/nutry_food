@@ -1,7 +1,8 @@
 import React from 'react'
 import Navbar from '../pages/Navbar';
 import Footer from '../pages/Footer';
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
+import { ExternalLink } from 'react-external-link';
 import { useNavigate } from "react-router-dom";
 import './product_style.css'
 function Products() {
