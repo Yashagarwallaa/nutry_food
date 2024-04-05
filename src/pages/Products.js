@@ -136,9 +136,9 @@ function Products() {
                             <img src='./Frame 260 (2).png'></img>
                         </div>
                         <div className='prod-card-title'>Dosa Powder</div>
-                        <button  className='btn-prod-card buynow-btn'>
-                         <Link to = '/productinfor'> Buy Now</Link> 
-                        </button>
+                        <Link to = '/productinfor'><button  className='btn-prod-card buynow-btn'>
+                        Buy Now
+                        </button></Link> 
                     </div>
                     <div className='prod-card'>
                         <div className='prod-card-image'>

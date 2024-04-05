@@ -709,9 +709,10 @@ function ProductInfo() {
                     </div>
                 </div>
                 </div>
-                <button className='btn-review' >
+                <Link to='/orderpage'>
+                <button  className='btn-review' >
                            Buy Now
-                        </button>
+                        </button></Link>
                 <div className='dom-review'>
                <span style={{color:' #004AAD'}}>●</span> Domestic & International Markets- Accessible worldwide and everywhere
                 </div> 

@@ -10,6 +10,8 @@ import Products from "./pages/Products";
 import ProductInfor from "./pages/ProductInfor";
 import ContactUs from "./pages/ContactUs";
 import Aboutus from "./pages/AboutUs";
+import OrderPage from './pages/OrderPage'
+
 // import Navbar from "./pages/Navbar";
 // import Footer from "./pages/Footer";
 
@@ -59,6 +61,7 @@ function App() {
       <Route path="/products" element={<Products />}/>
       <Route path="/productinfor" element={<ProductInfor/>}/>
       <Route path="/contactus" element={<ContactUs/>}/>
+      <Route path="/orderpage" element={<OrderPage/>}/>
     </Routes>
   );
 }
